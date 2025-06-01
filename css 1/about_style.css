@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+  }
+
+.bilgi{
+    float:left;
+    width: 70%;
+}
+.hakkımda{
+    float:left;
+    width: 30%;
+    padding-left: 20px;
+}
+.card{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+@media screen and (max-width:800px) {
+    .sag,.sol{
+        width: 100%;
+    }
+}

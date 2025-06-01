@@ -1,0 +1,56 @@
+.button{
+  cursor: pointer;
+}
+
+.main-popup{
+    background: #ffccff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+	  color: purple;
+	  border:3px solid purple;
+}
+
+.open-main-popup{
+  background: #ffccff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+	  color: purple;
+	  border:3px solid purple;
+}
+  
+  .popup{  
+    text-align: center;
+    width: 100%;
+    max-width: 350px;
+    margin: auto;  
+    margin-top: 300px;
+    padding: 30px;
+    background: white;
+    position: relative;
+	  border:3px solid purple;
+}
+
+  
+  .popup a{
+    background: #800080;
+    color: white;
+    padding: 7px 11px;
+    text-decoration: none;
+   
+}
+  
+  .popup-close{
+    position: absolute;
+    cursor: pointer;
+    top: 4px;
+    right: 7px;
+  
+}

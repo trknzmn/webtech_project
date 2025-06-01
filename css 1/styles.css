@@ -1,0 +1,54 @@
+body {
+    background: #f1f1f1; ;
+    padding: 10px;
+    font-family: Arial;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.submenu-canta, .submenu-cuzdan, .submenu-aksesuar, .submenu-bakim{
+    position:absolute;
+    display:none;
+}
+
+
+
+
+.sol{
+    float:left;
+    width: 75%;
+}
+.sag{
+    float:left;
+    width: 25%;
+    padding-left: 20px;
+}
+.card{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+.fakeimg{
+    background-color: #aaa;
+    padding: 30px;
+    width:100%;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer{
+    background-color: #ddd;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:800px) {
+    .sag,.sol{
+        width: 100%;
+    }
+}

@@ -1,0 +1,102 @@
+.body{
+    background-color: azure;
+    margin: 10px;
+}
+
+.carousel-item{
+    transition: transform 0.2s ease-in-out;
+}
+
+.nav-item{
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.clock{
+  text-align: center;
+  font-size: 30px;
+  color: #000000;
+  margin: 10px auto;
+}
+
+/*KARTLAR İÇİN CSS*/
+
+.kart-text{
+  margin-top: 20px;
+  font-weight: 400;
+  text-decoration: #000000a6;
+}
+
+
+
+/* FOOTER İÇİN CSS */
+
+.footer {
+  position: relative;
+  width: auto;
+  background: rgb(203, 214, 214);
+  min-height: 10px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-row{
+    align-items: center;
+}
+
+.social-icon, .menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item, .menu__item {
+  list-style: none;
+}
+
+.social-icon-item{
+    align-items: center;
+}
+
+.social-icon__link {
+  display: inline-block;
+  margin-right: -60px;
+}
+
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size:small;
+  color: #000000;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 1;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 0.4;
+}
+
+.footer p {
+  color: #000000;
+  margin: 15px 0 10px 0;
+  font-size:x-small;
+  font-weight: 300;
+}
+
+.social-img{
+    list-style: none;
+    max-width: 20%;
+}
+

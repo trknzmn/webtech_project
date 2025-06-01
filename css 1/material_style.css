@@ -1,0 +1,26 @@
+.kumas{
+    width:300px;
+    height:250px;
+    margin-right:25px;
+}
+
+.kumas-title{
+    font-size: large;
+    font-weight: 500;
+}
+
+img {
+    float: left;
+}
+
+p{
+    margin: 50px;
+    padding-right: 500px;
+    text-align: center;
+}
+
+.row{
+    margin: 20px;
+    margin-right: 70px;
+    text-align: center;
+}
