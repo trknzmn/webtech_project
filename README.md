@@ -1,3 +1,3 @@
 # webtech_project
 
-©December 2023, school project
+©2023 December, school project
